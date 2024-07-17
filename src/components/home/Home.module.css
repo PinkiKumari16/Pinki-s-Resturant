@@ -1,0 +1,24 @@
+.homeBg{
+    background-color: red;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/131/227/779/awesome-indian-food-wallpaper-preview.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    color: #fff;
+}
+.homeBg h1{
+    margin: 18rem 0 0 5rem;
+    font-size: 6rem;
+}
+.homeBg p{
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    line-height: 6rem;
+}
+.homeBg button{
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+}

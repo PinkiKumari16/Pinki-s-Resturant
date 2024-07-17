@@ -1,0 +1,41 @@
+.aboutPage{
+    text-align: center;
+    padding: 2rem;
+}
+.aboutPage p{
+    text-align: left;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+.imageContent{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.imageBox{
+    height: 50vh;
+    border: 2px solid red;
+    width: 19.9vw;
+    background-size: cover;
+
+}
+/* .imageBox:hover{
+    border-width: 0.1em;
+} */
+.nextArrow{
+    display: flex;
+    align-items: center;
+    transform: scale(3);
+    height: 3vh;
+    padding: 0;
+    margin-top: 10rem;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #0000ff;
+
+}
+p .nextArrow{
+    font-size: 8rem
+}
