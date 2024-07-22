@@ -16,14 +16,18 @@
 }
 .imageBox{
     height: 50vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 19.9vw;
     background-size: cover;
+    border-radius: 0.5em;
+
 
 }
-/* .imageBox:hover{
-    border-width: 0.1em;
-} */
+.imageBox:hover{
+    transform: scale(1.02);
+    /* border: 3px solid blue; */
+    box-shadow: rgba(3, 3, 3, 0.25) 5px 5px 16px 10px;
+}
 .nextArrow{
     display: flex;
     align-items: center;

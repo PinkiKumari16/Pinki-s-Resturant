@@ -1,10 +1,10 @@
 import React from 'react'
-import { Menu } from '../components/menu/Menu'
+import { SliderMenu } from '../components/menu/SliderMenu'
 
 export const MenuPage = () => {
   return (
     <>
-      <Menu />
+      <SliderMenu />
     </>
   )
 }

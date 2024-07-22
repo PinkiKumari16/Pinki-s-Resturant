@@ -1,0 +1,95 @@
+.box1{
+    /* height: 27vh; */
+    margin: 1rem 10rem 5rem 10rem;
+    padding: 2rem;
+    border-bottom: 1px solid #cfc7c7;
+    /* background-color: pink; */
+
+}
+.imageDiv, .menuDiv{ 
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: red; */
+    gap: 4rem;
+    justify-content: flex-start;
+    overflow-x: auto;
+
+
+}
+.imageDiv::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+.menuDiv::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+.imageBox{
+    width: 8vw;
+    height: 24vh;
+    background-size: contain;
+    flex-shrink: 0;
+    /* border: 2px solid red; */
+    cursor: pointer;
+}
+.menuBox{
+    width: 22rem;
+    height: 20rem;
+    /* background-color: green; */
+    flex-shrink: 0;
+
+}
+.menuBox:hover{
+    transform: scale(1.02);
+}
+.foodImage{
+    height: 14rem;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    border-radius: 1em;
+}
+.BigMenuBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.container{
+    display: flex;
+    width: 80vw;
+    gap: 1em;
+    margin-top: 2rem;
+}
+.panel{
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    position: relative;
+    border-radius: 50px;
+    flex: 0.5;
+    -webkit-transition: all 700ms ease-in;
+    cursor: pointer;
+}
+.active{
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    flex: 6;
+}
+
+.filterBtns{
+    display: flex;
+    width: 70%;
+    height: 5vh;
+    /* background-color: blue; */
+    margin: 1rem 0 1rem 0;
+    justify-content: space-between;
+    
+}
+.btn{
+    padding: 0 1rem 0 1rem;
+    border-radius: 50px;
+    border: 1px solid rgb(201, 196, 196);
+    background: transparent;
+}
